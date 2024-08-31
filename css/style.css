@@ -856,6 +856,16 @@ a:focus {
 .contact .contact-form .form-control::-ms-input-placeholder {
     color:#012169;
 }
+#sendMessageButton {
+    width: 100%;
+    max-width: 200px; /* Adjust as necessary */
+    margin: 0 auto;
+    display: block;
+}
+
+.control-group {
+    text-align: center; /* Center the button in its container */
+}
 
 .contact .contact-form .btn {
     margin-top: 35px;
