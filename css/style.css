@@ -822,8 +822,8 @@ a:focus {
             max-width: 900px;max-height: 480px;
             margin:auto;
             padding: 40px;
-            border: 3px solid #0E98BA;
-            border-radius: 20px;
+            /*border: 3px solid #0E98BA;
+            border-radius: 20px;*/
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
             background-color: none;
 }
