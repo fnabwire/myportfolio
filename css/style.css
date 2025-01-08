@@ -472,6 +472,7 @@ a:focus {
     position: relative;
     width: 100%;
     margin: -45px 0 45px 0;
+    background-color: #f5f5dc;
 }
 
 .about .col-lg-6 {
@@ -537,7 +538,11 @@ a:focus {
 
 .about .about-text a.btn {
     margin-top: 15px;
+    margin-bottom: 15px;
 }
+.button-container {
+    margin-bottom: 20px; /* Adjust this value as needed */
+  }
 
 @media (max-width: 991.98px) {
     .about .about-content {
@@ -809,6 +814,7 @@ a:focus {
 .portfolio {
     position: relative;
     padding: 45px 0 15px 0;
+    background-color: #f5f5dc;
 }
 
 .portfolio #portfolio-filter {
@@ -918,6 +924,7 @@ a:focus {
     width: 100%;
     margin: 45px 0;
     background: none;
+    background-color: #f5f5dc;
 }
 
 .contact .container-fluid {
@@ -929,10 +936,11 @@ a:focus {
             max-width: 900px;max-height: 480px;
             margin:auto;
             padding: 40px;
-            /*border: 3px solid #0E98BA;
-            border-radius: 20px;*/
+            border: 3px solid #0E98BA;
+            border-radius: 20px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
             background-color: none;
+            margin-bottom: 20px;
 }
 
 .contact .contact-form input {
@@ -1004,6 +1012,7 @@ a:focus {
     
     .contact .contact-form {
         padding: 90px 0;
+        
     }
 }
 
